@@ -1,0 +1,82 @@
+p {
+  line-height: 5px;
+}
+
+.container-twocolumns {
+  display: flex;
+  background-color: #add8e6;
+  justify-content: space-between;
+  padding: 10px;
+  gap: 10px;
+}
+
+.column {
+  flex: 1;
+  height: 50px;
+  background-color: gray;
+}
+
+.container-3columns {
+  display: flex;
+  background-color: #add8e6;
+  justify-content: space-between;
+  padding: 15px;
+  gap: 15px;
+}
+
+.column1,
+.column2,
+.column3 {
+  flex: 1;
+  height: 50px;
+  background-color: gray;
+}
+
+.container-3unequalcolumns {
+  display: flex;
+  background-color: #add8e6;
+  justify-content: space-between;
+  padding: 12px;
+  gap: 12px;
+}
+
+.column5,
+.column6 {
+  flex: 1;
+  height: 50px;
+  background-color: gray;
+  border: 2px solid black;
+}
+
+.column4 {
+  flex: 2;
+  height: 50px;
+  background-color: gray;
+  border: 2px solid black;
+}
+
+.container-4equalcolumn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #add8e6;
+  padding: 12px;
+  gap: 12px;
+}
+
+.column7,
+.column8,
+.column9,
+.column10 {
+  flex: 1;
+  border: 2px solid #000;
+  background-color: gray;
+  height: 50px;
+}
+
+.column11 {
+  width: 100%;
+  background-color: gray;
+  border: 2px solid #000;
+  height: 50px;
+}
